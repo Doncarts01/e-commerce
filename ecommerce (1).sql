@@ -433,7 +433,7 @@ CREATE TABLE `payment_settings` (
 --
 
 INSERT INTO `payment_settings` (`id`, `paypal_id`, `paypal_sk`, `paypal_status`, `stripe_pk`, `stripe_sk`, `paystack_pk`, `paystack_sk`, `merchant_email`, `is_cash`, `is_paypal`, `is_stripe`, `is_paystack`, `created_at`, `updated_at`) VALUES
-(1, 'AZI3yJ5EKNNU_UnDP_JVoLGPNmnPUWYosZALhl4nfNJsdutaZUb9ToGI3x-K4qJykiNHjdmYhgatboVj', 'EAjfFgVdHOG2zsS2jro5g2qlzJtJXEc2Y-z9qdP5XzUG7rQ5W5ffoGUEwYGxMuSFN4_caLajRJVzpQx2', 'sandbox', 'pk_test_51OwRhKRqZMkPEwgB5BNh5rANFABxxEAIh1jWkaYBuYxc90ntrX8s2r9j7cZBOVZduWzlbpeJVsgULp5wFzSjJXYj00pzpCMpdQ', 'sk_test_51OwRhKRqZMkPEwgBk7DMrrYqdg8mQeddKJHCjYdAtYUcxgmi3hcMcqyBp9qU6OtYz7st4w8HbeVI0Htbq7zn3TY900Or73yNt3', 'pk_test_7f28c9740c0d77f74c39f7b94ee3bf685c59ed9c', 'sk_test_c7ac2fbe687eb5f1df6a56ba8fee90092beef571', 'unicodeveloper@gmail.com', 0, 1, 1, 1, NULL, '2024-09-23 14:00:46');
+(1, 'AZI3yJ5EKNNU_UnDP_JVoLGPNmnPUWYosZALhl4nfNJsdutaZUb9ToGI3x-K4qJykiNHjdmYhgatboVj', 'payPal_sk', 'sandbox', 'stripePK', 'stripeSK', 'payStackPk', 'PaystackSk', 'unicodeveloper@gmail.com', 0, 1, 1, 1, NULL, '2024-09-23 14:00:46');
 
 -- --------------------------------------------------------
 
